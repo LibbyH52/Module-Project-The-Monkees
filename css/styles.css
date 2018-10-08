@@ -19,6 +19,7 @@ h2{
 
 img{
       display: block;
+      width: 80%;
       margin-left:auto;
       margin-right:auto;       
     }
@@ -31,6 +32,22 @@ img{
     left: 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
+ span.contact-details {
+  font-size: 18px;
+  background-color: none;
+  font-variant: small-caps;
+  color: #bb3928;
+  text-decoration: none;
+ }
+  span.contact-details a{
+  text-decoration: none;
+  color: #bb3928;
+ }
+  span.contact-details a:hover{
+  text-decoration: none;
+  color: #bb3928;
+ }
+
  .fa-facebook{
   color: #fafafa;
   background-color: #365899;
@@ -66,30 +83,30 @@ color:#fafafa;
     font-weight:800; 
 }
 .navbar-nav{
-    width: 70%;
     margin-left: 20px;    
 }
-.navbar-default .navbar-nav li{
+.navbar-default .navbar-nav .menuitem{
+    text-align: center;
     font-size: 24px;
     font-weight:600;
 }
-.navbar-default .navbar-nav li a{
+.navbar-default .navbar-nav .menuitem a{
     color: #fafafa;
+    text-decoration: none;
     text-align: center;
     }
   .navbar-default .navbar-brand:hover{
     background: rgba(245, 245, 245, 0.4);
-    font-size: 32px;
     color: #bb3928;
     height: 100px;
 }
-/*.navbar-default .navbar-nav li a:hover{
+.navbar-default .navbar-nav .menuitem:hover{
     background: rgba(245, 245, 245, 0.4);
     color: #bb3928;
-    font-size:32px;
+    text-decoration: none;
     font-weight: 700;
     height: 100px;
-}*/
+}
 .navbar button{
     border: none;
     background-color: transparent;
@@ -103,14 +120,6 @@ color:#fafafa;
  font-size: 24px;
  padding: 10px;
  color: #fafafa;
-}
-.navbar-nav i a:hover{
- text-decoration: none;
-  background: rgba(245, 245, 245, 0.4);
-    color: #bb3928;
-    font-size:32px;
-    font-weight: 700;
-    height: 100px;
 }
 
 /*-----------------------------------Home Section*/
@@ -133,12 +142,6 @@ color:#fafafa;
       padding: 1px;
       color: #fafafa;
       font-size: 2rem;
-    }
-    .home-paragraph a{
-     text-decoration: none;
-     font-weight: 700;
-      color:#fafafa;
-      background: rgba(187,57,40, 0.4);
     }
     .home-paragraph a:hover{
      background-color: rgba(255, 255, 255, 0.1);
@@ -210,16 +213,17 @@ audio{
  width: 100%;
  background: #d3d3d3;
  font-family: "Righteous", sans-serif;
+ padding-bottom:20px;
 }
-.events-container h2{
- color: #bb3928 ;
+.events-heading{
+ color: #bb3928;
  }
 .table{
- font-variant: small-caps;
  background-color: #000000;
  color: #ffffff;
  font-size: 12px;
  max-width: 90%;
+ font-variant: small-caps;
  margin:0 auto;
 }
 .table th{
@@ -234,6 +238,12 @@ audio{
  display: inline-block;
  font-size: 18px;
  }
+  .events-paragraph{
+  font-size: 2rem;
+  color: #fafafa;
+  padding: 5px;
+  background-color: rgba(2, 2, 2, 0.2);
+ }
  form{
   width: 90%;
   padding: 20px 0;
@@ -245,15 +255,8 @@ audio{
   margin: auto;
   margin-bottom: 20px;
  }
-.contact-details{
-  font-size: 18px;
-  color: #fafafa;
-  width: 90%;
-  color: #555;
-  margin: 0 auto;
-  text-align: center;
- }
- .contact-details i{
+ /*-----------------------------------Media Footer*/
+ footer i{
   height: 50px;
   width: 50px;
   font-size: 40px;
@@ -261,14 +264,10 @@ audio{
  }
 /*-----------------------------------Media Queries*/
 @media screen and (min-width:768px){
-  .container-fluid{
-     width: 90%;
-     margin: 0 auto;
-    }
     .home-paragraph{
      font-size: 3rem;
     }
-
+ 
 }
 @media screen and (min-width:992px){
   

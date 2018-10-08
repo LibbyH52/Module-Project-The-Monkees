@@ -30,17 +30,17 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="nav navbar-nav">
-                            <li>
-                                <i class="fa fa-home  hidden-xs hidden-sm"><a href="#"> Home</a></i>
+                            <li class="menuitem">
+                                <i class="fa fa-home"><a href="#"> Home</a></i>
                             </li>
-                            <li>
-                               <i class="fa fa-info nav hidden-xs hidden-sm"><a href="#about-container"> About </a></i> 
+                            <li class="menuitem">
+                               <i class="fa fa-info"><a href="#about-container"> About </a></i> 
                           </li>
-                          <li>
-                             <i class="fa fa-music hidden-xs hidden-sm"><a href="#music-container"> Music</a></i>
+                          <li class="menuitem">
+                             <i class="fa fa-music"><a href="#music-container"> Music</a></i>
                           </li>
-                            <li>
-                             <i class="fa fa-calendar hidden-xs hidden-sm"><a href="#events-container"> Events</a></i>
+                            <li class="menuitem">
+                             <i class="fa fa-calendar"><a href="#events-container"> Events</a></i>
                           </li>
                         </ul>
                     </div>
@@ -48,10 +48,10 @@
             </nav>
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
-            <div class="col-xs-11 col-md-offset-4 col-md-7">
+            <div class="col-xs-11 col-sm-offset-1 col-sm-10 col-md-offset-4 col-md-7">
                  <p class="home-paragraph">Got a special event coming up. We are available to perform
                 at functions such as weddings, Christmas parties, anniversaries, etc. Please email us
-                at performances@monkees.com. Or fill out our <a href="#contact">Contact form</a> below. 
+                at <span class="contact-details">performances@monkees.com </span>. Or fill out our <span class="contact-details"><a href="#contact">Contact form </a></span> below. 
                 </p>
             </div>
         </div>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-4 music">
+            <div class="col-xs-10 col-sm-6 col-md-4 music">
                 <img src="images/cover.jpg" alt="Album Cover">
                 <p class="song-title">Clarksville
                     <audio controls src="audio/Clarksville.mp3">
@@ -111,7 +111,7 @@
                     </audio>
                 </p>
             </div>
-            <div class="col-xs-12 col-md-4 music">
+            <div class="col-xs-10 col-sm-6 col-md-4 music">
                 <img src="images/album.jpg" alt="Album Cover">
                 <p class="song-title">Daydream Believer
                     <audio controls src="audio/DaydreamBeliever.mp3">
@@ -124,7 +124,7 @@
                         </audio>
                 </p>
             </div>
-            <div class="col-xs-12 col-md-4 music">
+            <div class="col-xs-10 col-sm-offset-3 col-sm-6 col-md-4 music">
                 <img src="images/album2.jpg" alt="Album Cover">
                 <p class="song-title">Stepping Stone
                     <audio controls src="audio/SteppingStone.mp3">
@@ -138,8 +138,8 @@
     <!---Events Container-->
     <div class="container-fluid events-container" id="events">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <h2 class="heading-uppercase">Upcoming Events</h2>
+            <div class="col-xs-12 col-sm-12 col-md-5">
+                <h2 class="heading-uppercase events-heading">Upcoming Events</h2>
                 <table class="table">
                     <thead>
                         <tr>
@@ -202,8 +202,13 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 contact-form" id="contact">
-                <h2 class="heading-uppercase">Contact Us</h2>
+            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-5 contact-form" id="contact">
+                <h2 class="heading-uppercase events-heading">Contact Us</h2>
+                 <p class="col-xs-12 col-sm-11 col-sm-offset-1 events-paragraph">
+                      Got a special event coming up. We are available to perform
+                    at functions such as weddings, Christmas parties, anniversaries, etc. Please email us
+                    at <span class="contact-details">performances@monkees.com</span>, or fill out our <span class="contact-details"> Contact form</span> below. 
+                </p>
                 <form class="form-horizontal">
                     <div class="form-group">
                         <label for="name" class="col-xs-12  col-sm-2 col-md-2 control-label">Name</label>
@@ -227,21 +232,29 @@
                         <button type="submit" class="submit-button btn btn-success">Get in Touch</button>
                     </div>
                 </form>
-                <div class="row">
-                     <p class="contact-details">
-                        For more details about the band and to find out more about our music
-                        join us on:<br>  <a href="facebook.com"><i class="fa fa-facebook"></i></a>
-                        <a href="twitter.com"><i class="fa fa-twitter"></i></a>
-                        <a href="instagram.com"><i class="fa fa-instagram"></i></a><br>
-                         To view more of our performances check out our YouTube channel: <br><a href="youtube.com"><i class="fa fa-youtube"></i></a>
-                       
-                    </p>
-                </div>
             </div>
         </div>
     </div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                    <p>
+                        For more details about the band and to find out more about our music
+                        join us on:<br>  <a href="facebook.com"><i class="fa fa-facebook"></i></a>
+                        <a href="twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="instagram.com"><i class="fa fa-instagram"></i></a>
+                        </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                             <p>
+                         To view more of our performances check out our YouTube channel: <br><a href="youtube.com"><i class="fa fa-youtube"></i></a>
+                    </p>
+                    </div>
+            </div>
+        </div>
+    </footer>
     <!---Events Container End-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
