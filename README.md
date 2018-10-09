@@ -1,23 +1,31 @@
 # The Monkees End of Module Project
 This project was created as an End Of Module Project for the Code Institute. The challenge was to create a front end only 
-website for a band. The idea was to showcase the skills we've learned so far in HTML and CSS.
+website for a band. The idea was to showcase the skills we've learned so far in HTML and CSS. 
 
 ## UX
 This project was built as a fanpage for followers of The Monkees. The intended pupose was to showcase the band's music and to inform
 users that they are also available to perform at special events. It was also built with the hope of attracting new fans to the band.
 My site attempts to achieve this by providing navigation links, on the homepage, to photos of the band, and it's members, a discography section
 containing some of the band's songs, an events section containing a list of concert dates and also a contact form for those wishing to hire the band.
-The footer contains links to various social media accounts, as well as their YoutTube channel. 
+The footer contains links to various social media accounts, as well as their YouTube channel. 
 ## Features
-
-## Existing Features
+#### Existing Features
+The site is a single scrolling page with five sections. 
+The Homepage of my project contains a large background image of the band and informs the user of band's availability to perform at private functions.
+There is a Navbar at the top of the page with links to each section of the site and a collapsed navbar for mobile screens. 
+The elements on the Discography were implemented using HTML5's 'audio' and 'video' tags with the 'controls' attribute added to both so the user can
+decided when to press Play/ Pause. 
+The About and Images sections contain photos of the band together and each member individually  and wre all added to the site using the 'img' tag.
+The table on in the Events section was created using Bootstrap's table class and the form was created using code from the Contact page of the Resume Project.
+#### Features Left to Implement
+Possibly include a 'Back to Top' button on each section of the site.
 
 
 ## Technologies Used
-HTML and CSS (Bootstrap and my own customised CSS page)
+For this project I used HTML5, CSS3 and Bootstrap (CSS and JavaScript for functionality) 
 
 ## Testing
-I ran checks on my HTML code using the W3C validator, to check for syntax errors. I also examined the sites at various screen sizes across a number of devices using responsive design mode iin Chrome and Firefox.
+I ran checks on my HTML and CSS code using the W3C validator, to check for syntax errors. I also examined the sites at various screen sizes across a number of devices using responsive design mode iin Chrome and Firefox.
 The main issue I ran into here was trying to get the site to stay within its container on the iPhone5s. I also filled out the contact form to ensure that the it would not be sent
 unless the required sections had been filled out. 
 ## Deployment
