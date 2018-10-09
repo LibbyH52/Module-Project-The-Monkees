@@ -6,6 +6,9 @@
   /*obtained from monkees.com*/
 }
 /*-----------------------------------General Styles*/
+.container-fluid{
+ max-width: 100%;
+}
 h2{
  width: 100%;
 }
@@ -19,7 +22,6 @@ h2{
 
 img{
       display: block;
-      width: 80%;
       margin-left:auto;
       margin-right:auto;       
     }
@@ -30,18 +32,19 @@ img{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(25, 25, 25, 0.2);
 }
  span.contact-details {
-  font-size: 18px;
+   font-size: 24px;
+  font-weight: 800;
+  color: #fafafa;
   background-color: none;
   font-variant: small-caps;
-  color: #bb3928;
   text-decoration: none;
  }
   span.contact-details a{
   text-decoration: none;
-  color: #bb3928;
+  color: #fafafa;
  }
   span.contact-details a:hover{
   text-decoration: none;
@@ -73,39 +76,37 @@ color:#fafafa;
     position: absolute;
     margin-bottom: 0;
     z-index: 1;
-    font-family: "Righteous", sans-serif;
+    font-family:"Righteous", sans-serif;
     background: transparent;
     border-bottom: none;
 }
 .navbar-default .navbar-brand{
     font-size: 24px;
-    color: #fafafa;
+    color:#bb3928;
     font-weight:800; 
 }
 .navbar-nav{
     margin-left: 20px;    
 }
 .navbar-default .navbar-nav .menuitem{
-    text-align: center;
     font-size: 24px;
-    font-weight:600;
+    font-weight:900;
 }
 .navbar-default .navbar-nav .menuitem a{
-    color: #fafafa;
+    color: #bb3928;
     text-decoration: none;
-    text-align: center;
     }
   .navbar-default .navbar-brand:hover{
+   color: #bb3928;
     background: rgba(245, 245, 245, 0.4);
-    color: #bb3928;
-    height: 100px;
 }
 .navbar-default .navbar-nav .menuitem:hover{
-    background: rgba(245, 245, 245, 0.4);
-    color: #bb3928;
+    background: rgba(245, 245, 245, 0.2);
     text-decoration: none;
     font-weight: 700;
-    height: 100px;
+}
+.navbar-toggle{
+ z-index: 1;
 }
 .navbar button{
     border: none;
@@ -113,13 +114,13 @@ color:#fafafa;
 }
 
 .navbar-default .navbar-toggle .icon-bar{
- background-color: #fafafa;
+ background-color: #bb3928;;
 }
 .navbar-nav i{
  text-align: center;
  font-size: 24px;
  padding: 10px;
- color: #fafafa;
+ color: #bb3928;
 }
 
 /*-----------------------------------Home Section*/
@@ -151,11 +152,15 @@ color:#fafafa;
 .about-container{
   height: 100%;
   width: 100%;
-  padding: 50px;
+  padding: 60px;
   align-items: center;
   color: #fafafa;
   background: #bb3928;
   
+}
+.about-container img{
+ height: 200px;
+ max-width: 90%;
 }
 .name{
     font-variant: small-caps;
@@ -208,12 +213,32 @@ audio{
  margin-right: auto;
  margin-left:auto;
 }
+/*-----------------------------------Image Container*/
+.image-container{
+ color: #fafafa;
+ padding: 40px 0;
+}
+
+.image-row{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+
 /*-----------------------------------Events Container*/
 .events-container{
- width: 100%;
- background: #d3d3d3;
- font-family: "Righteous", sans-serif;
- padding-bottom:20px;
+    width: 100%;
+   background: url('../images/vertical_guitar.png') no-repeat center center fixed;
+  -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size:contain;
+    align-items: center;
+    justify-content: center;
+   position: relative;
+   color: #bb3928;
+   font-family: "Righteous", sans-serif;
+   padding-bottom:20px;
 }
 .events-heading{
  color: #bb3928;
@@ -234,20 +259,27 @@ audio{
  height: 45px;
  font-size: 18px;
 }
-.label{
- display: inline-block;
- font-size: 18px;
- }
   .events-paragraph{
+   max-width: 90%;
+   margin: 0 auto;
   font-size: 2rem;
   color: #fafafa;
   padding: 5px;
-  background-color: rgba(2, 2, 2, 0.2);
+  background-color: rgba(2, 2, 2, 0.4);
  }
- form{
+ .events-paragraph .contact-details{
+  font-size: 24px;
+  font-weight: 800;
+  color: #fafafa;
+  
+ }
+ .form-horizontal{
   width: 90%;
+  margin: 0 auto;
   padding: 20px 0;
-   margin: 0 auto;
+ }
+ .form-control{
+  margin: 8px 0;
  }
  .submit-button{
   font-size: 20px;
@@ -256,7 +288,18 @@ audio{
   margin-bottom: 20px;
  }
  /*-----------------------------------Media Footer*/
- footer i{
+.footer{
+ color: #fafafa;
+ width: 100%;
+ font-family: "Righteous", sans-serif;
+ background: #bb3928;
+ padding: 3em 0;
+}
+ .footer-paragraph{
+  text-align: center;
+  font-size: 18px;
+ }
+ .footer-paragraph i{
   height: 50px;
   width: 50px;
   font-size: 40px;
@@ -264,22 +307,27 @@ audio{
  }
 /*-----------------------------------Media Queries*/
 @media screen and (min-width:768px){
-    .home-paragraph{
+    .home-paragraph {
      font-size: 3rem;
     }
- 
-}
-@media screen and (min-width:992px){
-  
- 
- .about-container: {
-  height: 100vh;
- }
- .music-container{
-  background: url('../images/guitar.png') no-repeat center center fixed;
- }
- video{
- height: 320px;
-}
 
+    .about-container: {
+     height: 100vh;
+    }
+}
+@media screen and (min-width:992px) {
+
+   .music-container {
+      background: url('../images/guitar.png') no-repeat center center fixed;
+   }
+  video {
+      height: 320px;
+   }
+   .image-row{
+    display: flex;
+   }
+   .events-container {
+      background: url('../images/guitar.png') no-repeat center center fixed;
+   }
+  
 }
