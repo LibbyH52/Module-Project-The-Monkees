@@ -27,7 +27,7 @@ For this project I used HTML5, CSS3 and Bootstrap (CSS and JavaScript for functi
 ## Testing
 I ran checks on my HTML and CSS code using the W3C validator, to check for syntax errors. I also examined the sites at various screen sizes across a number of devices using responsive design mode iin Chrome and Firefox.
 The main issue I ran into here was trying to get the site to stay within its container on the iPhone5s. I also filled out the contact form to ensure that the it would not be sent
-unless the required sections had been filled out. 
+unless the required sections had been filled out and a valid email was essential. 
 ## Deployment
 
 ## Credits

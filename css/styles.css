@@ -5,6 +5,10 @@
   background: #bb3928;
   /*obtained from monkees.com*/
 }
+body{
+ font-family: "Righteous", sans-serif;
+ color: #fafafa;
+}
 /*-----------------------------------General Styles*/
 .container-fluid{
  max-width: 100%;
