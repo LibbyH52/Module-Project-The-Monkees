@@ -12,11 +12,11 @@ The footer contains links to various social media accounts, as well as their You
 #### Existing Features
 The site is a single scrolling page with five sections. 
 The Homepage of my project contains a large background image of the band and informs the user of band's availability to perform at private functions.
-There is a Navbar at the top of the page with links to each section of the site and a collapsed navbar for mobile screens. 
-The elements on the Discography were implemented using HTML5's 'audio' and 'video' tags with the 'controls' attribute added to both so the user can
-decided when to press Play/ Pause. 
-The About and Images sections contain photos of the band together and each member individually  and wre all added to the site using the 'img' tag.
-The table on in the Events section was created using Bootstrap's table class and the form was created using code from the Contact page of the Resume Project.
+There is a Navbar at the top of the page with links to each section of the site and a collapsed navbar for mobile screens. It is also possible to navigate the through 
+the site using the browser's scroll bar and the arrow keys on a desktop / laptop computer. 
+The site also contains two images sections showing photos of the band and its members. As well as this, there is a discography section with video and audio dipicting
+the band's work. 
+The Contact form contains a submit button to allow users to contact the band.
 #### Features Left to Implement
 Possibly include a 'Back to Top' button on each section of the site.
 
