@@ -266,8 +266,9 @@ audio{
   background-color: rgba(2, 2, 2, 0.5);
  }
  .events-paragraph .contact-details{
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'Roboto Mono', monospace;
+   letter-spacing: 0;
   font-weight: 800;
   color: #fafafa;
   
@@ -316,6 +317,9 @@ audio{
     .about-container: {
      height: 100vh;
     }
+   .events-paragraph .contact-details{
+     font-size: 24px;
+  }
 }
 @media screen and (min-width:992px) {
 
@@ -331,4 +335,8 @@ audio{
     .events-container {
       background: url('../images/guitar.png') no-repeat center center fixed;
    }
+  .events-paragraph .contact-details{
+    letter-spacing: 5px;
+  }
+     
 }
