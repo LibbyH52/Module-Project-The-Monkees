@@ -6,6 +6,7 @@
   /*obtained from monkees.com*/
 }
 body{
+  overflow-x:hidden;
  font-family: "Righteous", sans-serif;
  color: #fafafa;
  margin: 0;
@@ -243,7 +244,11 @@ audio{
  background-color: #000000;
  color: #ffffff;
  font-size: 12px;
+<<<<<<< HEAD
  width: 100%;
+=======
+ max-width: 100%;
+>>>>>>> 16e28a7fe3121766ba799df31c51300c9934f32f
  font-variant: small-caps;
  margin:0 auto;
 }
@@ -256,7 +261,11 @@ audio{
  font-size: 18px;
 }
   .events-paragraph{
+<<<<<<< HEAD
    width: 100%;
+=======
+   max-width: 100%;
+>>>>>>> 16e28a7fe3121766ba799df31c51300c9934f32f
    margin: 0 auto;
   font-size: 2rem;
   line-height: 3rem;
@@ -266,9 +275,14 @@ audio{
   background-color: rgba(2, 2, 2, 0.5);
  }
  .events-paragraph .contact-details{
+<<<<<<< HEAD
   font-size: 20px;
   letter-spacing: 1px;
+=======
+  font-size: 12px;
+>>>>>>> 16e28a7fe3121766ba799df31c51300c9934f32f
   font-family: 'Roboto Mono', monospace;
+   letter-spacing: 0px;
   font-weight: 800;
   color: #bb3928;
  }
@@ -277,7 +291,11 @@ audio{
  }
  
  .form-horizontal{
+<<<<<<< HEAD
   width: 100%;
+=======
+  max-width: 100%;
+>>>>>>> 16e28a7fe3121766ba799df31c51300c9934f32f
   margin: 0 auto;
   padding: 20px 0;
  }
@@ -322,12 +340,18 @@ audio{
     .about-container: {
      height: 100vh;
     }
+<<<<<<< HEAD
     .table{
      max-width: 90%;
     }
     .events-paragraph .contact-details{
       font-size: 24px;
     }
+=======
+   .events-paragraph .contact-details{
+     font-size: 24px;
+  }
+>>>>>>> 16e28a7fe3121766ba799df31c51300c9934f32f
 }
 @media screen and (min-width:992px) {
 
@@ -343,4 +367,8 @@ audio{
     .events-container {
       background: url('../images/guitar.png') no-repeat center center fixed;
    }
+  .events-paragraph .contact-details{
+    letter-spacing: 5px;
+  }
+     
 }
