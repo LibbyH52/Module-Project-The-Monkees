@@ -290,7 +290,7 @@ audio{
  /*-----------------------------------Media Footer*/
 .footer{
  color: #fafafa;
- width: 100%;
+ width: 100vw;
  font-family: "Righteous", sans-serif;
  background: #bb3928;
  padding: 3em 0;
