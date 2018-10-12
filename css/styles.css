@@ -6,6 +6,7 @@
   /*obtained from monkees.com*/
 }
 body{
+  max-width: 100%;
  font-family: "Righteous", sans-serif;
  color: #fafafa;
 }
