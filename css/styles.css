@@ -8,6 +8,7 @@
 body{
  font-family: "Righteous", sans-serif;
  color: #fafafa;
+ margin: 0;
 }
 /*-----------------------------------General Styles*/
 .container-fluid{
@@ -242,7 +243,7 @@ audio{
  background-color: #000000;
  color: #ffffff;
  font-size: 12px;
- max-width: 90%;
+ width: 100%;
  font-variant: small-caps;
  margin:0 auto;
 }
@@ -255,7 +256,7 @@ audio{
  font-size: 18px;
 }
   .events-paragraph{
-   max-width: 90%;
+   width: 100%;
    margin: 0 auto;
   font-size: 2rem;
   line-height: 3rem;
@@ -265,14 +266,18 @@ audio{
   background-color: rgba(2, 2, 2, 0.5);
  }
  .events-paragraph .contact-details{
-  font-size: 24px;
+  font-size: 20px;
+  letter-spacing: 1px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 800;
-  color: #fafafa;
-  
+  color: #bb3928;
  }
+ .events-paragraph .contactForm{
+  color: #bb3928;
+ }
+ 
  .form-horizontal{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
  }
@@ -286,12 +291,14 @@ audio{
   margin-bottom: 20px;
  }
  /*-----------------------------------Media Footer*/
+
 .footer{
  color: #fafafa;
  width: 100%;
  font-family: "Righteous", sans-serif;
  background: #bb3928;
  padding: 3em 0;
+ margin: 0;
 }
  .footer-paragraph{
   text-align: center;
@@ -314,6 +321,12 @@ audio{
 
     .about-container: {
      height: 100vh;
+    }
+    .table{
+     max-width: 90%;
+    }
+    .events-paragraph .contact-details{
+      font-size: 24px;
     }
 }
 @media screen and (min-width:992px) {
