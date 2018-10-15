@@ -16,9 +16,11 @@ The footer contains links to various social media accounts, as well as their You
 * As a potential fan of the band, I would like to visit this site to find out more about the type of music they play, because I might want 
 hire them for an upcoming event.
 
-My Wireframes also show my initial design ideas. At first my idea was to have a ![Home Page](/wireframes/HomePage.jpg/), followed by a page about the band 
-![About the band](https://github.com/LibbyH52/Module-Project-The-Monkees/wirerames/About.jpg/) then a [Music Page](/wireframes/Music.jpg/), this would be followed by an [Events Page](/wireframes/Events.jpg/), 
-and finally a [Footer](/wireframes/Footer.jpg/).
+My initial desgin idea was have a:
+* A ![Home Page](https://github.com/LibbyH52/Module-Project-The-Monkees/wireframes/HomePage.jpg/), containing a large background image of the band, with links and a paragraph of text
+* followed by a page about the band ![About the band](https://github.com/LibbyH52/Module-Project-The-Monkees/wirerames/About.jpg/) 
+* a [Music Page](https://github.com/LibbyH52/Module-Project-The-Monkees/wireframes/Music.jpg/), this would be followed by an [Events Page](/wireframes/Events.jpg/), 
+* and finally a [Footer](https://github.com/LibbyH52/Module-Project-The-Monkees/wireframes/Footer.jpg/).
 
 ## Features
 #### Existing Features
