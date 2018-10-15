@@ -19,9 +19,9 @@ hire them for an upcoming event.
 My initial desgin idea was have a:
  A ![Home Page](https://github.com/LibbyH52/Module-Project-The-Monkees/wireframes/HomePage.jpg/), containing a large background image of the band, with links and a paragraph of text
  followed by a page about the band ![About the band](https://github.com/LibbyH52/Module-Project-The-Monkees/wirerames/About.jpg/) 
- a ![Music Page](https://github.com/LibbyH52/Module-Project-The-Monkees/wireframes/Music.jpg/), 
- this would be followed by an ![Events Page](https://github.com/LibbyH52/Module-Project-The-Monkees/wireframes/Events.jpg/), 
- and finally a [Footer](https://github.com/LibbyH52/Module-Project-The-Monkees/wireframes/Footer.jpg/).
+ a ![Music Page](/wireframes/Music.jpg/), 
+ this would be followed by an ![Events Page](/wireframes/Events.jpg/), 
+ and finally a [Footer](/wireframes/Footer.jpg/).
 
 ## Features
 #### Existing Features
