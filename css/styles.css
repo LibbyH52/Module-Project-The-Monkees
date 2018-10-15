@@ -1,112 +1,133 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico: 100, 200, 300, 400, 500, 600, 700, 800 |Righteous: 100, 200, 300, 400, 500, 600, 700, 800 |Roboto+Mono: 100, 200, 300, 400, 500, 600, 700, 800');
 
 /*------------------------------------Background Colours*/
-.bg-color-monkees{
-  background: #bb3928;
-  /*obtained from monkees.com*/
+
+.bg-color-monkees {
+ background: #bb3928;
+ /*obtained from monkees.com*/
 }
-body{
-  overflow-x:hidden;
+
+body {
+ overflow-x: hidden;
  font-family: "Righteous", sans-serif;
  color: #fafafa;
  margin: 0;
 }
+
 /*-----------------------------------General Styles*/
-.container-fluid{
+
+.container-fluid {
  max-width: 100%;
 }
-h2{
+
+h2 {
  width: 100%;
 }
-.heading-uppercase{
-    font-size: 4rem;
-    font-family: "Righteous", sans-serif;
-    font-weight: 800;
-    text-align:center;
-    margin: 25px 0;
+
+.heading-uppercase {
+ font-size: 4rem;
+ font-family: "Righteous", sans-serif;
+ font-weight: 800;
+ text-align: center;
+ margin: 25px 0;
 }
 
-img{
-      display: block;
-      margin-left:auto;
-      margin-right:auto;       
-    }
- 
- .opaque-overlay{ /*From Bootstrap Lesson*/
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(25, 25, 25, 0.2);
+img {
+ display: block;
+ margin: 0 auto;
 }
- .fa-facebook{
-  color: #fafafa;
-  background-color: #365899;
- }
- .fa-twitter{
-  background: #fafafa;
-  color: #1b95e0;
- }
- .fa-instagram{
-   background: #f09433; 
-background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-color:#fafafa;
- }
- .fa-youtube{
-  background: #ff0000;
-  color: #fafafa;
- }
+
+.opaque-overlay {
+ /*From Bootstrap Lesson*/
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ top: 0;
+ left: 0;
+ background-color: rgba(25, 25, 25, 0.2);
+}
+
+.fa-facebook {
+ color: #fafafa;
+ background-color: #365899;
+}
+
+.fa-twitter {
+ background: #fafafa;
+ color: #1b95e0;
+}
+
+.fa-instagram {
+ background: #f09433;
+ background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+ background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+ background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+ color: #fafafa;
+}
+
+.fa-youtube {
+ background: #ff0000;
+ color: #fafafa;
+}
+
 /*-----------------------------------Navigation*/
-.navbar{
-    width: 100%;
-    position: absolute;
-    margin-bottom: 0;
-    z-index: 1;
-    font-family:"Righteous", sans-serif;
-    background: transparent;
-    background: rgba(0, 0,0, 0.8);
-    border-bottom: none;
-}
-.navbar-default .navbar-brand{
-    font-size: 24px;
-    color:#bb3928;
-    font-weight:800; 
-}
-.navbar-nav{
-    margin-left: 20px;    
-}
-.navbar-default .navbar-nav .menuitem{
-    font-size: 24px;
-    font-weight:900;
-}
-.navbar-default .navbar-nav .menuitem a{
-    color: #bb3928;
-    text-decoration: none;
-    }
-  .navbar-default .navbar-brand:hover{
-   color: #bb3928;
-    background: rgba(245, 245, 245, 0.4);
-}
-.navbar-default .navbar-nav .menuitem:hover{
-    background: rgba(245, 245, 245, 0.4);
-    text-decoration: none;
-    font-weight: 700;
-}
-.navbar button{
-    border: none;
-    background-color: transparent;
+
+.navbar {
+ width: 100%;
+ position: absolute;
+ margin-bottom: 0;
+ z-index: 1;
+ font-family: "Righteous", sans-serif;
+ background: transparent;
+ background: rgba(0, 0, 0, 0.8);
+ border-bottom: none;
 }
 
-.navbar-default .navbar-toggle .icon-bar{
- background-color: #bb3928;;
+.navbar-default .navbar-brand {
+ font-size: 24px;
+ color: #bb3928;
+ line-height: 24px;
 }
-.navbar-toggle{
- background-color: rgba(0,0,0, 0.5);
+
+.navbar-nav {
+ margin-left: 20px;
 }
-.navbar-nav i{
+
+.navbar-default .navbar-nav .menuitem {
+ font-size: 24px;
+}
+
+.navbar-default .navbar-nav .menuitem a {
+ color: #bb3928;
+ text-decoration: none;
+}
+
+.navbar-default .navbar-brand:hover {
+ color: #bb3928;
+ background: rgba(245, 245, 245, 0.4);
+}
+
+.navbar-default .navbar-nav .menuitem:hover {
+ background: rgba(245, 245, 245, 0.4);
+ text-decoration: none;
+ font-weight: 700;
+}
+
+.navbar button {
+ border: none;
+ background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: #bb3928;
+ ;
+}
+
+.navbar-toggle {
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav i {
  text-align: center;
  font-size: 24px;
  padding: 10px;
@@ -114,189 +135,210 @@ color:#fafafa;
 }
 
 /*-----------------------------------Home Section*/
-.home-container{
-     height: 100vh;
-     width:100%;
-     background: url('../images/monkees.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     position: relative;
-    }
-    .home-paragraph{
-      font-family: "Righteous", sans-serif;
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 2rem;
-      line-height: 4rem;
-      letter-spacing: 0.5rem;
-      color: #fafafa;
-      font-size: 2rem;
-    }
-  .home-paragraph .contact-details a{
-     color: #bb3928;
-     }
-   
-    .home-paragraph a:hover{
-     background-color: rgba(255, 255, 255, 0.1);
-     color: #bb3928;
-     text-decoration: none;
-    }
-/*-----------------------------------About Section*/
-.about-container{
-  height: 100%;
-  width: 100%;
-  padding: 60px;
-  align-items: center;
-  color: #fafafa;
-  background: #bb3928;
-  
+
+.home-container {
+ height: 100vh;
+ width: 100%;
+ background: url('../images/monkees.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
 }
-.about-container img{
+
+.home-paragraph {
+ font-family: "Righteous", sans-serif;
+ background-color: rgba(0, 0, 0, 0.6);
+ padding: 2rem;
+ line-height: 4rem;
+ letter-spacing: 0.5rem;
+ color: #fafafa;
+ font-size: 2rem;
+}
+
+.home-paragraph .contact-details a {
+ color: #bb3928;
+}
+
+.home-paragraph a:hover {
+ background-color: rgba(255, 255, 255, 0.1);
+ color: #bb3928;
+ text-decoration: none;
+}
+
+/*-----------------------------------About Section*/
+
+.about-container {
+ height: 100%;
+ width: 100%;
+ padding: 60px;
+ align-items: center;
+ color: #fafafa;
+ background: #bb3928;
+
+}
+
+.about-container img {
  height: 200px;
  max-width: 90%;
 }
-.name{
-    font-variant: small-caps;
-    color: #fafafa;
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    margin-bottom: 20px;
-}
-/*-----------------------------------Music Section*/
- .music-container{
-     height: 100%;
-     width: 100%;
-     background: url('../images/vertical_guitar.png') no-repeat center center fixed;
-     -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size:contain;
-    align-items: center;
-    justify-content: center;
-     position: relative;
-     color: #bb3928;
-     padding-bottom: 50px;
-    }
 
-video{
+.name {
+ font-variant: small-caps;
+ color: #fafafa;
+ font-size: 24px;
+ font-weight: 300;
+ text-align: center;
+ font-family: 'Pacifico', cursive;
+ margin-bottom: 20px;
+}
+
+/*-----------------------------------Music Section*/
+
+.music-container {
+ height: 100%;
+ width: 100%;
+ background: url('../images/vertical_guitar.png') no-repeat center center fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ color: #bb3928;
+ padding-bottom: 50px;
+}
+
+video {
  display: block;
  width: 90%;
  margin-bottom: 50px;
- margin-right: auto;
- margin-left: auto;
+ margin: 0 auto;
 }
 
-.song-title{
+.song-title {
  font-size: 2em;
  font-weight: 600;
  text-align: center;
  margin-bottom: 15px;
  color: #fafafa;
 }
- 
-.music img{
+
+.music img {
  width: 80%;
  margin-top: 35px;
 }
-audio{
+
+audio {
  width: 80%;
  display: block;
- margin-right: auto;
- margin-left:auto;
+ margin: 0 auto;
 }
+
 /*-----------------------------------Image Container*/
-.image-container{
+
+.image-container {
  color: #fafafa;
  padding: 40px 0;
 }
 
-.image-row{
-    align-items: center;
-    justify-content: center;
-    position: relative;
- }
+.image-row {
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
 
 /*-----------------------------------Events Container*/
-.events-container{
-    width: 100%;
-   background: url('../images/vertical_guitar.png') no-repeat center center fixed;
-  -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size:contain;
-    align-items: center;
-    justify-content: center;
-   position: relative;
-   color: #bb3928;
-   font-family: "Righteous", sans-serif;
-   padding-bottom:20px;
-}
-.events-heading{
+
+.events-container {
+ width: 100%;
+ background: url('../images/vertical_guitar.png') no-repeat center center fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+ align-items: center;
+ justify-content: center;
+ position: relative;
  color: #bb3928;
- }
-.table{
+ font-family: "Righteous", sans-serif;
+ padding-bottom: 20px;
+}
+
+.events-heading {
+ color: #bb3928;
+}
+
+.table {
  background-color: #000000;
  color: #ffffff;
  font-size: 12px;
  width: 100%;
  max-width: 100%;
  font-variant: small-caps;
- margin:0 auto;
+ margin: 0 auto;
 }
-.table th{
+
+.table th {
  font-size: 24px;
  font-weight: 800;
 }
-.table td{
+
+.table td {
  height: 45px;
  font-size: 18px;
 }
-  .events-paragraph{
-   width: 100%;
-   max-width: 100%;
-   margin: 0 auto;
-  font-size: 2rem;
-  line-height: 3rem;
-  letter-spacing: 5px;
-  color: #fafafa;
-  padding: 10px 5px 30px 5px;
-  background-color: rgba(2, 2, 2, 0.5);
- }
- .events-paragraph .contact-details{
-  font-size: 20px;
-  letter-spacing: 1px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 800;
-  color: #bb3928;
- }
- .events-paragraph .contactForm{
-  color: #bb3928;
- }
- 
- .form-horizontal{
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px 0;
- }
- .form-control{
-  margin: 8px 0;
- }
- .submit-button{
-  font-size: 20px;
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
- }
- /*-----------------------------------Media Footer*/
 
-.footer{
+.events-paragraph {
+ width: 100%;
+ max-width: 100%;
+ margin: 0 auto;
+ font-size: 2rem;
+ line-height: 3rem;
+ letter-spacing: 5px;
+ color: #fafafa;
+ padding: 10px 5px 30px 5px;
+ background-color: rgba(2, 2, 2, 0.5);
+}
+
+.events-paragraph .contact-details {
+ font-size: 20px;
+ letter-spacing: 1px;
+ font-family: 'Roboto Mono', monospace;
+ font-weight: 800;
+ color: #bb3928;
+}
+
+.events-paragraph .contactForm {
+ color: #bb3928;
+}
+
+.form-horizontal {
+ width: 100%;
+ max-width: 100%;
+ margin: 0 auto;
+ padding: 20px 0;
+}
+
+.form-control {
+ margin: 8px 0;
+}
+
+.submit-button {
+ font-size: 20px;
+ display: block;
+ margin: auto;
+ margin-bottom: 20px;
+}
+
+/*-----------------------------------Media Footer*/
+
+.footer {
  color: #fafafa;
  width: 100%;
  font-family: "Righteous", sans-serif;
@@ -304,56 +346,61 @@ audio{
  padding: 3em 0;
  margin: 0;
 }
- .footer-paragraph{
-  text-align: center;
-  font-size: 18px;
- }
- .footer-paragraph i{
-  height: 50px;
-  width: 50px;
-  font-size: 40px;
-  margin: 10px 5px 10px 5px;
- }
+
+.footer-paragraph {
+ text-align: center;
+ font-size: 18px;
+}
+
+.footer-paragraph i {
+ height: 50px;
+ width: 50px;
+ font-size: 40px;
+ margin: 10px 5px 10px 5px;
+}
+
 /*-----------------------------------Media Queries*/
-@media screen and (min-width:768px){
- .navbar{
+
+@media screen and (min-width:768px) {
+ .navbar {
   background: transparent;
  }
-    .home-paragraph {
-     font-size: 3rem;
-    }
+ .home-paragraph {
+  font-size: 3rem;
+ }
 
-    .about-container: {
-     height: 100vh;
-    }
+ .about-container: {
+  height: 100vh;
+ }
 
-    .table{
-     max-width: 90%;
-    }
-    .events-paragraph .contact-details{
-      font-size: 24px;
-    }
+ .table {
+  max-width: 90%;
+ }
+ .events-paragraph .contact-details {
+  font-size: 24px;
+ }
 
-   .events-paragraph .contact-details{
-     font-size: 24px;
-  }
+ .events-paragraph .contact-details {
+  font-size: 24px;
+ }
 }
+
 @media screen and (min-width:992px) {
 
-   .music-container {
-      background: url('../images/guitar.png') no-repeat center center fixed;
-   }
-  video {
-      height: 320px;
-   }
-   .image-row{
-    display: flex;
-   }
-    .events-container {
-      background: url('../images/guitar.png') no-repeat center center fixed;
-   }
-  .events-paragraph .contact-details{
-    letter-spacing: 5px;
-  }
-     
+ .music-container {
+  background: url('../images/guitar.png') no-repeat center center fixed;
+ }
+ video {
+  height: 320px;
+ }
+ .image-row {
+  display: flex;
+ }
+ .events-container {
+  background: url('../images/guitar.png') no-repeat center center fixed;
+ }
+ .events-paragraph .contact-details {
+  letter-spacing: 5px;
+ }
+
 }
