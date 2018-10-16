@@ -6,6 +6,7 @@
 }
  body {
      overflow-x: hidden;
+     width: 100vw;
      font-family: "Righteous", sans-serif;
      color: #fafafa;
      margin: 0;
@@ -110,9 +111,9 @@
 }
 /*-----------------------------------Home Section*/
  .home-container {
-     height: 100%;
+     height: 100vh;
      width: 100%;
-     background: url('../images/monkees.jpg') no-repeat center center fixed;
+     background: url('../images/monkees.jpg') no-repeat center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -173,7 +174,7 @@
  .music-container {
      height: 100%;
      width: 100%;
-     background: url('../images/vertical_guitar.png') no-repeat center center fixed;
+     background: url('../images/vertical_guitar.png') no-repeat center fixed;
      -webkit-background-size: contain;
      -moz-background-size: contain;
      -o-background-size: contain;
