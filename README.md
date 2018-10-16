@@ -1,3 +1,5 @@
+[Deployed Website](https://libbyh52.github.io/Module-Project-The-Monkees/)
+
 # The Monkees End of Module Project
 This project was created as an End Of Module Project for the Code Institute. The challenge was to create a front end only 
 website for a band. The idea was to showcase the skills we've learned so far in HTML and CSS. 
@@ -16,7 +18,7 @@ The footer contains links to various social media accounts, as well as their You
 * As a potential fan of the band, I would like to visit this site to find out more about the type of music they play, because I might want 
 hire them for an upcoming event.
 
-My initial design idea was have a:
+#### Wireframes
 ![Home Page](/wireframes/HomePage.jpg/),
 ![About the band](/wirerames/About.jpg/) 
 ![Music Page](/wireframes/Music.jpg/), 
@@ -43,20 +45,34 @@ Possibly include a 'Back to Top' button on each section of the site.
 * Javascript, for interactivity
 
 ## Testing
-I ran checks on my HTML and CSS code using the W3C validator, to check for syntax errors. I also examined the sites at various screen sizes across a number of devices 
-using responsive design mode iin Chrome and Firefox. The main issue I ran into here was trying to get the site to stay within its container on the iPhone5s. I also 
-filled out the contact form to ensure that the it would not be sent unless the required sections had been filled out and a valid email was essential. 
+I validated both my HTML and CSS code using the W3C validator. I exmained my site in both Firefox and Chrome to check for cross compatability. I also used the responsive design mode in both browsers
+examining my site at various screen sizes, in Chrome and Firefox my site was examined on:
+* Galaxy S5
+* Pixel 2
+* Pixel 2 XL
+* iPhone 5/SE
+* iPhone 6/7/8
+* iPhone 6/7/8
+* iPhone X
+* iPad
+* iPad Pro
+* Laptop screen
+
+I also filled out the contact form to ensure that it worked as it was supposed to. 
+Finally, I clicked on each link in my Navbar to ensure that I was taken to the relevant section. 
 
 ## Deployment
-I deployed my website via GitHub pages. Ialso deployed the code locally using Brackets text editor. 
+I deployed my website via GitHub pages. I also deployed the code locally in Chrome and Firefox using Brackets text editor. 
 
 ## Credits
+
 #### Content
-I looked up he names of the bands members, as well as the red colour for my h2 header elements, the About Container and the Images Container
-on their own website https://www.monkees.com/ JavaScript code to collapsing the Hamburger menu when a link is clicked copied from here: https://stackoverflow.com/a/32336582
+I looked up the name of the bands members, as well as the red colour for my h2 header elements, the About Container and the Images Container
+on their [own website](https://www.monkees.com/). The role of each band member was taken from 'Band Members' section of the [Monkees Wikipedia Page](https://en.wikipedia.org/wiki/The_Monkees) The JavaScript code to collapsing the Hamburger menu when a link is clicked copied from [here:](https://stackoverflow.com/a/32336582)
+
 #### Media
 The images of the band and it's various members was obtained from the Code Institure. The audio files and the vido were also given to us by
-The Code Institute. The guitar image, which I used as a background for two of my containers I got from Pixabay.com. All images are for EDUCATIONAL USE ONLY.
+The Code Institute. The guitar image, which I used as a background for two of my containers I got from [Pixabay](https://pixabay.com/). All images are for EDUCATIONAL USE ONLY.
 
 #### Acknowledgements
 The layout of my Homepage was taken from the Code Institute's Bootstrap Lesson and the code for my form
