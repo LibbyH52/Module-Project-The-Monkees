@@ -4,36 +4,46 @@
 This project was created as an End Of Module Project for the Code Institute. The challenge was to create a front end only 
 website for a band. The idea was to showcase the skills we've learned so far in HTML and CSS. 
 This project was built as a fan page for followers of The Monkees. The intended purpose was to showcase the band's music and to inform
-users that they are also available to perform at special events. It was also built with the hope of attracting new fans to the band.
+users that they are available to perform at special events. It was also built with the hope of attracting new fans to the band.
 
 ## UX
-My site attempts to achieve its goal by providing navigation links, on the homepage, to photos of the band, and its members, a discography section
-containing some of the band's songs, an events section containing a list of concert dates, some photos of the band and also a contact form for those wishing to hire the band.
-The footer contains links to various social media accounts, as well as their YouTube channel. 
+My site attempts to achieve its goal by providing navigation links on the homepage, to photos of the band, and its members, a discography section
+containing some of the band's songs, an events section containing a list of concert dates, and a contact form for those wishing to hire the band.
+The footer contains links to their various social media accounts, as well as their YouTube channel. 
+
 ##### User Stories
 * As a fan of the band, I would like to visit this site to listen to their music and follow them on social media.
+
 * As a potential fan of the band, I would like to listen to their music, so that I can see if I like it.
+
 * As a fan of the band, I would like to find out more about their availability for private performances, because I want to hire them for my wedding.
+
 * As a fan of the band, I would like to find out more about upcoming performances, so I can attend one of their concerts.
+
 * As a potential fan of the band, I would like to visit this site to find out more about the type of music they play, because I might want 
 hire them for an upcoming event.
 
 #### Wireframes
-![Home Page](/wireframes/HomePage.vp/)
-![About the band](/wirerames/About.jpg/) 
-![Music Page](/wireframes/Music.jpg/) 
-![Events Page](/wireframes/Events.jpg/) 
+![Home](/wireframes/HomePage.jpg/)
+![About](/wirerames/About.jpg/) 
+![Music](/wireframes/Music.jpg/) 
+![Events](/wireframes/Events.jpg/) 
 ![Footer](/wireframes/Footer.jpg/)
 
 ## Features
+
 #### Existing Features
 The site is a single scrolling page with five sections.
-The Homepage of my project contains a large background image of the band and informs the user of band's availability to perform at private functions.
-There is a Navbar at the top of the page with links to each section of the site and a collapsed navbar for mobile screens. It is also possible to navigate through 
-the site using the browser's scroll bar and the arrow keys on a desktop / laptop computer. 
-The site also contains two images sections showing photos of the band and its members. As well as this, there is a discography section with video and audio tracks depicting
-the band's work. 
-The Contact form contains a submit button to allow users to contact the band.
+The first page is the Homepage which contains a large background image of the band, a video of them performing one their most well known songs and
+a Navbar at the top of the page with links to the various sections of the site. The navbar is collapsed on mobile screens with a small hamburger icon in the top
+right-hand corner. It is also possible to navigate through the site using the browser's scroll bar and the arrow keys on a 
+desktop / laptop computer. Following the Home Page, there is an About section which contains individual images of each band member, 
+their names and role within the band. The third section is the Music section, and this informs the viewer of the band's availability
+for private hire, as well as showcasing some of their work. The fourth section is a small image gallery which displays pictures of the
+band. The Events section follows this with information on any upcoming concerts that the band are performing. As well as this, there 
+is a contact form allowing the user to get in touch with the band and make enquiries about their availability to perform at weddings, 
+Christmas Parties, and other special events. Finally, the footer contains links to their social media accounts and YouTube channel.
+
 #### Features Left to Implement
 Possibly include a 'Back to Top' button on each section of the site.
 
@@ -45,8 +55,9 @@ Possibly include a 'Back to Top' button on each section of the site.
 * JavaScript, for interactivity
 
 ## Testing
-I validated both my HTML and CSS code using the W3C validator. I examined my site in both Firefox and Chrome to check for cross browser compatibility. I also used the responsive design mode in both browsers
-examining my site at various screen sizes, in Chrome and Firefox my site was examined on:
+I validated both my HTML and CSS code using the W3C validator. I had no errors or warnings in my HTML and no errors in my CSS. I examined my site in 
+both Firefox and Chrome to check for cross browser compatibility. I also used the responsive design mode in both browsers examining my site at 
+various screen sizes. In Chrome and Firefox I used the following devices:
 * Galaxy S5
 * Pixel 2
 * Pixel 2 XL
@@ -59,16 +70,17 @@ examining my site at various screen sizes, in Chrome and Firefox my site was exa
 * Laptop screen
 
 I also filled out the contact form to ensure that it worked as it was supposed to. 
-Finally, I clicked on each link in my Navbar to ensure that I was taken to the relevant section. 
+And, I clicked on each link in my Navbar to make sure that I was taken to the relevant section. 
 
 ## Deployment
-I deployed my website via GitHub pages. I also deployed the code locally in Chrome and Firefox using Brackets text editor. 
+I deployed my website via GitHub pages. I also deployed the code locally in both Chrome and Firefox using Brackets text editor. 
 
 ## Credits
 
 #### Content
-I looked up the name of the band members, as well as the red colour for my h2 header elements, and the background-colour of the About Container and the Images Container
-on their [own website](/https://www.monkees.com/). The role of each band member was taken from 'Band Members' section of the [Monkees Wikipedia Page](https://en.wikipedia.org/wiki/The_Monkees) The JavaScript code to collapse the Hamburger menu when a link is clicked was copied from [here:](https://stackoverflow.com/a/32336582)
+I looked up the name of the band members, as well as the red colour for my h2 header elements, and the background-colour of the About and Images Containers
+on their [own website](/https://www.monkees.com/). The information regarding the role of each band member was taken from the 'Band Members' section of the [Monkees Wikipedia Page](https://en.wikipedia.org/wiki/The_Monkees) 
+The JavaScript code to collapse the Hamburger menu clicked copied from [here:](https://stackoverflow.com/a/32336582)
 
 #### Media
 The images of the band and it's various members, as well as the audio and video elements were obtained from [Code Institute's](https://github.com/Code-Institute-Org/project-assets) git hub repo. 
