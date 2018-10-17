@@ -3,7 +3,7 @@
 # The Monkees End of Module Project
 This project was created as an End Of Module Project for the Code Institute. The challenge was to create a front end only 
 website for a band. The idea was to showcase the skills we've learned so far in HTML and CSS. 
-This project was built as a fanpage for followers of The Monkees. The intended pupose was to showcase the band's music and to inform
+This project was built as a fan page for followers of The Monkees. The intended purpose was to showcase the band's music and to inform
 users that they are also available to perform at special events. It was also built with the hope of attracting new fans to the band.
 
 ## UX
@@ -19,7 +19,7 @@ The footer contains links to various social media accounts, as well as their You
 hire them for an upcoming event.
 
 #### Wireframes
-![Home Page](/wireframes/HomePage.jpg/)
+![Home Page](/wireframes/HomePage.vp/)
 ![About the band](/wirerames/About.jpg/) 
 ![Music Page](/wireframes/Music.jpg/) 
 ![Events Page](/wireframes/Events.jpg/) 
@@ -42,10 +42,10 @@ Possibly include a 'Back to Top' button on each section of the site.
 * HTML5
 * CSS3
 * Bootstrap
-* Javascript, for interactivity
+* JavaScript, for interactivity
 
 ## Testing
-I validated both my HTML and CSS code using the W3C validator. I examined my site in both Firefox and Chrome to check for cross browser compatability. I also used the responsive design mode in both browsers
+I validated both my HTML and CSS code using the W3C validator. I examined my site in both Firefox and Chrome to check for cross browser compatibility. I also used the responsive design mode in both browsers
 examining my site at various screen sizes, in Chrome and Firefox my site was examined on:
 * Galaxy S5
 * Pixel 2
@@ -77,6 +77,6 @@ The guitar image, which I used as a background for two of my containers I got fr
 #### Acknowledgements
 The layout of my Homepage was taken from the Code Institute's [Bootstrap Lesson](https://github.com/Code-Institute-Solutions/BootstrapLandingPage/tree/master/04-beyond_bootstrap) and the code for my form
 was taken from the [User Centric Design Resume Mini Project](https://github.com/Code-Institute-Solutions/ResponsiveDesign-MiniProject). 
-The code for the Instagram color-gradient was taken from top answer here: https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background and the Youtube
-red color was obtained from https://www.designpieces.com/palette/youtube-hex-rgb/
+The code for the Instagram colour-gradient was taken from top answer here: https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background and the YouTube
+red colour was obtained from https://www.designpieces.com/palette/youtube-hex-rgb/
 JavaScript code to collapsing the Hamburger menu when a link is clicked copied from here: https://stackoverflow.com/a/32336582
