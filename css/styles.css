@@ -158,6 +158,7 @@ video {
 }
 .about-container img {
 	height: 150px;
+	width: 80%;
 }
 .band {
 	background: #fafafa;

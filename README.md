@@ -34,7 +34,7 @@ hire them for an upcoming event.
 
 #### Existing Features
 The site is a single scrolling page with five sections.
-The first page is the Homepage which contains a large background image of the band, a video of them performing one their most well known songs and
+The first page is the Homepage which contains a large background image of the band, a video of them performing one of their most well known songs and
 a Navbar at the top of the page with links to the various sections of the site. The navbar is collapsed on mobile screens with a small hamburger icon in the top
 right-hand corner. It is also possible to navigate through the site using the browser's scroll bar and the arrow keys on a 
 desktop / laptop computer. Following the Home Page, there is an About section which contains individual images of each band member, 
@@ -57,12 +57,11 @@ Possibly include a 'Back to Top' button on each section of the site.
 ## Testing
 I validated both my HTML and CSS code using the W3C validator. I had no errors or warnings in my HTML and no errors in my CSS. I examined my site in 
 both Firefox and Chrome to check for cross browser compatibility. I also used the responsive design mode in both browsers examining my site at 
-various screen sizes. In Chrome and Firefox I used the following devices:
+various screen sizes. In Chrome and Firefox I viewed the site on the following devices:
 * Galaxy S5
 * Pixel 2
 * Pixel 2 XL
 * iPhone 5/SE
-* iPhone 6/7/8
 * iPhone 6/7/8
 * iPhone X
 * iPad
@@ -70,25 +69,25 @@ various screen sizes. In Chrome and Firefox I used the following devices:
 * Laptop screen
 
 I also filled out the contact form to ensure that it worked as it was supposed to. 
-And, I clicked on each link in my Navbar to make sure that I was taken to the relevant section. 
+As well as this, I clicked on each link in my Navbar to make sure that I was taken to the relevant section. 
 
 ## Deployment
-I deployed my website via GitHub pages. I also deployed the code locally in both Chrome and Firefox using Brackets text editor. 
+I deployed my website via GitHub pages. I also deployed the code locally in both Chrome and Firefox. 
 
 ## Credits
 
 #### Content
 I looked up the name of the band members, as well as the red colour for my h2 header elements, and the background-colour of the About and Images Containers
 on their [own website](/https://www.monkees.com/). The information regarding the role of each band member was taken from the 'Band Members' section of the [Monkees Wikipedia Page](https://en.wikipedia.org/wiki/The_Monkees) 
-The JavaScript code to collapse the Hamburger menu clicked copied from [here:](https://stackoverflow.com/a/32336582)
+The JavaScript code to collapse the Hamburger menu was copied from [here:](https://stackoverflow.com/a/32336582)
 
 #### Media
-The images of the band and it's various members, as well as the audio and video elements were obtained from [Code Institute's](https://github.com/Code-Institute-Org/project-assets) git hub repo. 
-The guitar image, which I used as a background for two of my containers I got from [Pixabay](https://pixabay.com/). All images are for EDUCATIONAL USE ONLY.
+The images of the band and its various members, as well as the audio and video elements were obtained from [Code Institute's](https://github.com/Code-Institute-Org/project-assets) git hub repo. 
+The guitar image, which I used as a background for two of my containers I got from [Pixabay](https://pixabay.com/en/electric-guitar-ax-axe-guitar-161740/). All images are for EDUCATIONAL USE ONLY.
 
 #### Acknowledgements
 The layout of my Homepage was taken from the Code Institute's [Bootstrap Lesson](https://github.com/Code-Institute-Solutions/BootstrapLandingPage/tree/master/04-beyond_bootstrap) and the code for my form
 was taken from the [User Centric Design Resume Mini Project](https://github.com/Code-Institute-Solutions/ResponsiveDesign-MiniProject). 
-The code for the Instagram colour-gradient was taken from top answer here: https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background and the YouTube
+The code for the Instagram colour-gradient was taken from the top answer at: https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background and the YouTube
 red colour was obtained from https://www.designpieces.com/palette/youtube-hex-rgb/
-JavaScript code to collapsing the Hamburger menu when a link is clicked copied from here: https://stackoverflow.com/a/32336582
+The JavaScript code to collapse the Hamburger menu when clicked was copied from: https://stackoverflow.com/a/32336582
