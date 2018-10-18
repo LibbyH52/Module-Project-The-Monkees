@@ -326,7 +326,8 @@ audio {
 .footer-paragraph i {
 	height: 50px;
 	width: 50px;
-	font-size: 40px;
+	border-radius: 10px;
+	font-size: 50px;
 	margin: 10px 5px 10px 5px;
 }
 /*-----------------------------------Media Queries*/

@@ -24,7 +24,7 @@ The footer contains links to their various social media accounts, as well as the
 hire them for an upcoming event.
 
 #### Wireframes
-![Home](/wireframes/HomePage.jpg/)
+![Home](/wireframes/Homepage.jpg/)
 ![About](/wirerames/About.jpg/) 
 ![Music](/wireframes/Music.jpg/) 
 ![Events](/wireframes/Events.jpg/) 
