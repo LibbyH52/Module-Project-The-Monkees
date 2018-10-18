@@ -91,7 +91,7 @@ img {
 	color: #bb3928;
 	background: rgba(245, 245, 245, 0.4);
 }
-.navbar-default .navbar-nav .menuitem:hover {
+.navbar-default .navbar-nav .menuitem a:hover {
 	background: rgba(245, 245, 245, 0.4);
 	text-decoration: none;
 	font-weight: 700;
@@ -136,7 +136,7 @@ img {
 }
 video {
 	display: block;
-	width: 100%;
+	width: 90%;
 	margin: 0 auto 50px auto;
 }
 /*-----------------------------------About Section*/
@@ -158,7 +158,7 @@ video {
 }
 .about-container img {
 	height: 150px;
-	width: 80%;
+	max-width: 80%;
 }
 .band {
 	background: #fafafa;
@@ -166,6 +166,8 @@ video {
 	padding: 20px 10px;
 	border: 8px solid #bb3928;
 	height: 400px;
+	max-width:80%;
+	margin: 0 auto;
 }
 .name {
 	font-variant: small-caps;
@@ -177,7 +179,7 @@ video {
 .info {
 	text-align: center;
 	font-size: 18px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 /*-----------------------------------Music Section*/
 
