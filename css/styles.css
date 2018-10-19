@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico: 100, 200, 300, 400, 500, 600, 700, 800 |Righteous: 100, 200, 300, 400, 500, 600, 700, 800 |Roboto+Mono: 100, 200, 300, 400, 500, 600, 700, 800');
 
 /*------------------------------------Background Colours*/
-
 .bg-color-monkees {
 	background: #bb3928;
 	/*obtained from monkees.com*/
+}
+html{
+	scroll-behavior: smooth;
 }
 body {
 	overflow-x: hidden;
@@ -20,9 +22,9 @@ body {
 }
 h2 {
 	width: 100%;
+	font-size: 4rem;
 }
 .heading-uppercase {
-	font-size: 4rem;
 	font-family: "Righteous", sans-serif;
 	font-weight: 800;
 	text-align: center;
@@ -31,15 +33,6 @@ h2 {
 img {
 	display: block;
 	margin: 0 auto;
-}
-.opaque-overlay {
-	/*From Bootstrap Lesson*/
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	background-color: rgba(25, 25, 25, 0.2);
 }
 .fa-facebook {
 	color: #fafafa;
@@ -166,8 +159,9 @@ video {
 	padding: 20px 10px;
 	border: 8px solid #bb3928;
 	height: 400px;
-	max-width:80%;
-	margin: 0 auto;
+	max-width: 400px;
+	display: block;
+	margin: 0 10%;
 }
 .name {
 	font-variant: small-caps;
@@ -218,7 +212,7 @@ video {
 	font-weight: 600;
 	text-align: center;
 	margin-bottom: 15px;
-	color: #fafafa;
+	color: 	#2D2D2B;
 }
 .music img {
 	width: 80%;
@@ -234,11 +228,15 @@ audio {
 .image-container {
 	color: #fafafa;
 	padding: 40px 0;
+	text-align: center;
 }
 .image-row {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+}
+.caption{
+	margin-bottom: 30px;
 }
 /*-----------------------------------Events Container*/
 
@@ -256,6 +254,9 @@ audio {
 	color: #bb3928;
 	font-family: "Righteous", sans-serif;
 	padding-bottom: 20px;
+}
+h3{
+	font-size: 3rem;
 }
 .events-heading {
 	color: #bb3928;
@@ -337,6 +338,9 @@ audio {
 @media screen and (min-width: 768px) {
 	.navbar {
 		background: transparent;
+	}
+	.band{
+		margin: 0 auto;
 	}
 	.about-container img {
 		height: 200px;

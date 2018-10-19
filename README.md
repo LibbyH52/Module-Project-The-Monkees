@@ -24,12 +24,12 @@ The footer contains links to their various social media accounts, as well as the
 hire them for an upcoming event.
 
 #### Wireframes
-![Home](/Wireframes/Homepage.jpg/)
-![About](/Wirerames/About.jpg/) 
-![Music](/Wireframes/Music.jpg/) 
-![images](/Wireframes/Images.jpg/)
-![Events](/Wireframes/Events.jpg/) 
-![Footer](/Wireframes/Footer.jpg/)
+* Home ![Home](/Wireframes/Homepage.jpg/)
+* About ![About](/Wirerames/About.jpg/) 
+* Music ![Music](/Wireframes/Music.jpg/) 
+*Images ![images](/Wireframes/Images.jpg/)
+* Events ![Events](/Wireframes/Events.jpg/) 
+* Footer ![Footer](/Wireframes/Footer.jpg/)
 
 ## Features
 
@@ -46,7 +46,8 @@ is a contact form allowing the user to get in touch with the band and make enqui
 Christmas Parties, and other special events. Finally, the footer contains links to their social media accounts and YouTube channel.
 
 #### Features Left to Implement
-Possibly include a 'Back to Top' button on each section of the site.
+* A 'Back to Top' button on each section of the site. 
+* Carousel or lightbox for the images
 
 
 ## Technologies Used
@@ -92,3 +93,4 @@ was taken from the [User Centric Design Resume Mini Project](https://github.com/
 The code for the Instagram colour-gradient was taken from the top answer at: https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background and the YouTube
 red colour was obtained from https://www.designpieces.com/palette/youtube-hex-rgb/
 The JavaScript code to collapse the Hamburger menu when clicked was copied from: https://stackoverflow.com/a/32336582
+The code snippet to allow for smooth scrolling through my site I got from the [W3C Schools](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2)
