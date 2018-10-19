@@ -27,7 +27,7 @@ hire them for an upcoming event.
 * Home ![Home](/wireframes/Homepage.jpg/)
 * About ![About](/wirerames/About.jpg/) 
 * Music ![Music](/wireframes/Music.jpg/) 
-*Images ![images](/wireframes/Images.jpg/)
+* Images ![images](/wireframes/Images.jpg/)
 * Events ![Events](/wireframes/Events.jpg/) 
 * Footer ![Footer](/wireframes/Footer.jpg/)
 
