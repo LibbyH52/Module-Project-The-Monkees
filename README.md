@@ -24,12 +24,12 @@ The footer contains links to their various social media accounts, as well as the
 hire them for an upcoming event.
 
 #### Wireframes
-* Home ![Home](/Wireframes/Homepage.jpg/)
-* About ![About](/Wirerames/About.jpg/) 
-* Music ![Music](/Wireframes/Music.jpg/) 
-*Images ![images](/Wireframes/Images.jpg/)
-* Events ![Events](/Wireframes/Events.jpg/) 
-* Footer ![Footer](/Wireframes/Footer.jpg/)
+* Home ![Home](/wireframes/Homepage.jpg/)
+* About ![About](/wirerames/About.jpg/) 
+* Music ![Music](/wireframes/Music.jpg/) 
+*Images ![images](/wireframes/Images.jpg/)
+* Events ![Events](/wireframes/Events.jpg/) 
+* Footer ![Footer](/wireframes/Footer.jpg/)
 
 ## Features
 

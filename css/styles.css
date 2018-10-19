@@ -360,7 +360,7 @@ h3{
 }
 @media screen and (min-width: 992px) {
 	video {
-		height: 320px;
+		max-height: 320px;
 	}
 	.music-container {
 		background: url('../images/guitar.png') no-repeat center center fixed;
