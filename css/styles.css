@@ -57,7 +57,7 @@ img {
 
 .navbar {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	margin-bottom: 0;
 	z-index: 1;
 	font-family: "Righteous", sans-serif;
@@ -104,6 +104,13 @@ img {
 	font-size: 24px;
 	padding: 10px;
 	color: #bb3928;
+}
+/**background style for nav-collapse*/
+.navScroll{
+    background-color: #fff;
+    line-height: 32px;
+    font-size: 24px;
+    padding: 0 4px;
 }
 /*-----------------------------------Home Section*/
 
