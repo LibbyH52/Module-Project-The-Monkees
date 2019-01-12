@@ -94,3 +94,4 @@ The code for the Instagram colour-gradient was taken from the top answer at: htt
 red colour was obtained from https://www.designpieces.com/palette/youtube-hex-rgb/
 The JavaScript code to collapse the Hamburger menu when clicked was copied from: https://stackoverflow.com/a/32336582
 The code snippet to allow for smooth scrolling through my site I got from the [W3C Schools](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2)
+The code for collapsing the navbar on scroll is a slightly edited version of what I found [here](http://redvinestudio.com/how-to-make-bootstrap-3-fixed-navbar-collapse-on-scroll-using-jquery/)
