@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-        if ($(".navbar").offset().top > 600) {
+        if ($(".navbar").offset().top > 600 && $(window).width() > 700) {
             $(".navbar-nav").addClass("navbar-toggle");
             $(".navbar-header").addClass("navScroll navbar-fixed-top");
         }
